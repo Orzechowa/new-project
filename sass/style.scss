@@ -1,0 +1,65 @@
+/* Variables */
+$color-one: green;
+$color-light: #fff;
+$color-dark: black;
+$font-text: Noto Sans JP, sans-serif;
+/* Global */
+body {
+    font-size: 16px;
+    line-height: 1.7;
+    font-family: $font-text;
+    color: $color-dark;
+    margin:0;  
+}
+
+
+/* splash */
+.splash  {
+    background-image: url(https://images.pexels.com/photos/2180180/pexels-photo-2180180.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.splash-inner {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}    
+.navigation {
+    padding: 12px 0;
+    text-align: right;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+    }
+    li {
+        display: inline-block;
+        margin: 0 36px 0 0;
+        position: relative;
+    }
+    a {
+        text-decoration: none;
+        color: $color-dark;
+    }
+}
+.page-title {
+    text-align: center;
+    font-size: 50px;
+    margin: 48px 0 0 0;
+    position: relative;
+}
+.page-subtitle {
+    font-size: 25px;
+    margin: 24px 0 0 0;
+    font-style: oblique;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
