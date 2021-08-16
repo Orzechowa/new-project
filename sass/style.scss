@@ -154,13 +154,10 @@ footer {
     display: inline;
 }
   
-.page-footer a {
-    font-size: 0; 
-}
-  
-.page-footer li {
-    display: inline; 
-}
+li {
+    display: inline-block;
+
+}  
   
 .page-footer li i {
     font-size: 20px;
